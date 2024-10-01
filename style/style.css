@@ -12,3 +12,8 @@ body{
 .main{
     /* background-image: url(images/banner.png); */
 }
+.sceond-main-continer{
+    border-radius: 88px 88px 0px 0px;
+border-top: 2px solid var(--primary-700, #1DD100);
+background: #F7F8F8;
+}
