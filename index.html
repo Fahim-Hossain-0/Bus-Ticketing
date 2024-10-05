@@ -138,17 +138,17 @@
  </section>
  <!-- main-part -->
   
-  <main class="main ">
-    <section class="container mx-auto mt-28 mb-20">
+  <main class="main bg-[#F7F8F8]">
+    <section class="container mx-auto mt-28">
       <div class="text-center">
         <h5 class="text-[40px] text-[#030712] font-bold ralway-font">P.H Paribahan</h5>
         <p class="text-base md:text-lg font-normal inter-font text-[#03071299] mt-6">Yes, you can run unit tests and view the results directly within the app. The integrated <br>testing features allow for a streamlined .</p>
       </div>
       <!-- container -->
-      <div class="flex flex-col lg:flex-row items-center justify-around mt-16">
-        <div class=" bg-[#F7F8F8] inter-font">
+      <div class="flex flex-col lg:flex-row items-center justify-around mt-16 bg-[#FFFFFF] rounded-3xl">
+        <div class=" bg-[#F7F8F8 inter-font">
           <!-- first start -->
-          <div class=" flex items-center justify-between px-3">
+          <div class=" flex items-center justify-between px-3 bg-[#ff]">
             <div class="flex items-center justify-center gap-3">
               <img class="hidden md:block w-[55px] h-[35px] md:w-[68.571px] md:h-[48px]" src="images/bus-logo.png" alt="">
               <div>
@@ -161,22 +161,24 @@
             </div>
           </div>
           <!-- first end -->
-           <div class="flex items-center justify-between mt-16 mb-3 px-3">
-            <p class="text-lg font-semibold text-[#03071299]">Route</p>
-            <p class="text-lg font-semibold">Dhaka - Sylhet</p>
-           </div>
-           <hr class="border-dashed h-[1px] w-full lg:w-[744px] bg-[#03071233]">
-           <div class="flex items-center justify-between mt-8 mb-3 px-3">
-            <p class="text-lg font-semibold text-[#03071299]">Departure Time</p>
-            <p class="text-lg font-semibold">9:00 PM</p>
-           </div>
-           <hr class="border-dashed h-[1px] w-full lg:w-[744px] bg-[#03071233]">
-           <div class="flex flex-col md:flex-row items-center justify-evenly gap-6 mt-8">
-            <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Boarding Point - Laxmipur</p>
-            <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Dropping Point - Bogura</p>
-            <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Est. Time - 11 Hour</p>
+           <div class="bg-[#F7F8F8] rounded-3xl p-8 mt-10">
+            <div class="flex items-center justify-between mb-3 px-3">
+              <p class="text-lg font-semibold text-[#03071299]">Route</p>
+              <p class="text-lg font-semibold">Dhaka - Sylhet</p>
+             </div>
+             <hr class="border-dashed h-[1px] w-full lg:w-[744px] bg-[#12030433]">
+             <div class="flex items-center justify-between mt-8 mb-3 px-3">
+              <p class="text-lg font-semibold text-[#03071299]">Departure Time</p>
+              <p class="text-lg font-semibold">9:00 PM</p>
+             </div>
+             <hr class="border-dashed h-[1px] w-full lg:w-[744px] bg-[#03071233]">
+             <div class="flex flex-col md:flex-row items-center justify-evenly gap-6 mt-8">
+              <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Boarding Point - Laxmipur</p>
+              <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Dropping Point - Bogura</p>
+              <p class="text-base font-semibold text-[#030712CC] bg-[#0307120D] px-5 py-3 rounded-xl">Est. Time - 11 Hour</p>
+            </div>
           </div>
-        </div>
+           </div>
         <div class="lg:block hidden"><img src="images/info-devider.png" alt=""></div>
         <div class=" flex flex-col justify-center items-center mt-16 lg:mt-0">
           <img src="images/fare.png" alt="">
@@ -188,7 +190,119 @@
         </div>
       </div>
     </section>
+    <!-- seat-section -->
+    <section class="container mx-auto">
+      <!-- hole container -->
+      <div class="flex gap-16 bg-[#fff] p-12 rounded-3xl">
+        <!-- left -->
+    <div class="flex flex-col justify-center">
+      <div class="mb-5">
+        <p class="text-2xl font-semibold raleway-font mb-6">Select Your Seat</p>
+        <hr class="border-dashed h-[1px] w-full lg:w-[600px] bg-[#03071233]">
+      </div>
+      <div class="flex justify-between mb-3">
+        <div class="inline-flex gap-1">
+          <img class="" src="images/seat-gray.png" alt=""><span>Available</span>
+        </div>
+        <div class="inline-flex gap-1">
+          <img src="images/seat-green-filled.png" alt="">
+          <p>Selected</p>
+        </div>
+      </div>
+      <hr class="border-dashed h-[1px] w-full lg:w-[600px] bg-[#03071233]">
+      <div class="inline-flex bg-[#0307121A] rounded-xl py-3 px-8 mt-7 mb-8">
+      <img class="" src="images/tabler-icon-steering-wheel.svg" alt="">
+      </div>   
+      <!-- seat -->
+      <div class="flex items-center justify-center">
+        <div class="seat-section grid grid-cols-5 gap-y-9 gap-x-5 p-4 bg-base-200 rounded-lg text-[#03071280] bg-[#fff] text-lg">
+          <!-- Row A -->
+          <div class="flex items-center justify-center font-bold">A</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">A1</button>
+          <button class="btn text-[#03071280]">A2</button>
+          <button class="btn text-[#03071280]">A3</button>
+          <button class="btn text-[#03071280]">A4</button>
+      
+          <!-- Row B -->
+          <div class="flex items-center justify-center font-bold">B</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">B1</button>
+          <button class="btn text-[#03071280]">B2</button>
+          <button class="btn text-[#03071280]">B3</button>
+          <button class="btn text-[#03071280]">B4</button>
+      
+          <!-- Row C -->
+          <div class="flex items-center justify-center font-bold">C</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">C1</button>
+          <button class="btn text-[#03071280]">C2</button>
+          <button class="btn text-[#03071280]">C3</button>
+          <button class="btn text-[#03071280]">C4</button>
+      
+          <!-- Row D -->
+          <div class="flex items-center justify-center font-bold">D</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">D1</button>
+          <button class="btn text-[#03071280]">D2</button>
+          <button class="btn text-[#fff] bg-[#1DD100] px-9 py-3">D3</button> <!-- Selected -->
+          <button class="btn text-[#03071280]">D4</button>
+      
+          <!-- Row E -->
+          <div class="flex items-center justify-center font-bold">E</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">E1</button> <!-- Selected -->
+          <button class="btn text-[#03071280]">E2</button>
+          <button class="btn text-[#03071280]">E3</button>
+          <button class="btn text-[#03071280]">E4</button>
+      
+          <!-- Row F -->
+          <div class="flex items-center justify-center font-bold">F</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">F1</button>
+          <button class="btn text-[#03071280]">F2</button>
+          <button class="btn text-[#03071280]">F3</button>
+          <button class="btn text-[#03071280]">F4</button>
+      
+          <!-- Row G -->
+          <div class="flex items-center justify-center font-bold">G</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">G1</button>
+          <button class="btn text-[#03071280]">G2</button> <!-- Selected -->
+          <button class="btn text-[#03071280]">G3</button>
+          <button class="btn text-[#03071280]">G4</button>
+      
+          <!-- Row H -->
+          <div class="flex items-center justify-center font-bold">H</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">H1</button>
+          <button class="btn text-[#03071280]">H2</button>
+          <button class="btn text-[#03071280]">H3</button>
+          <button class="btn text-[#03071280]">H4</button>
+      
+          <!-- Row I -->
+          <div class="flex items-center justify-center font-bold">I</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">I1</button>
+          <button class="btn text-[#03071280]">I2</button>
+          <button class="btn text-[#03071280]">I3</button>
+          <button class="btn text-[#03071280]">I4</button>
+      
+          <!-- Row J -->
+          <div class="flex items-center justify-center font-bold">J</div> <!-- Row label -->
+          <button class="btn text-[#03071280]">J1</button>
+          <button class="btn text-[#03071280]">J2</button>
+          <button class="btn text-[#03071280]">J3</button>
+          <button class="btn text-[#03071280]">J4</button>
+        </div>
+      </div> 
+    </div>
+      <!-- <div>akta border hoibo jaita deta partase na ami (heda! heda!)</div> -->
+        <div class="">
+          <div class="">
+            <p class="text-2xl font-semibold raleway-font mb-6">Select Your Seat</p>
+            <hr class="border-dashed h-[1px] w-full lg:w-[444px] bg-[#03071233]">
+          </div>
+          <div class="bg-[#F7F8F8] p-14 mt-6">
 
+          </div>  
+        </div>
+      
+      </div>
+
+      
+    </section>
 
 
 
