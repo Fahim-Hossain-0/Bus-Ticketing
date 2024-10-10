@@ -26,7 +26,12 @@
               </div>`
               event.target.disabled = true
               clickCount++
-
+                    if(clickCount ===5){
+                        const allButtons = document.querySelectorAll('.ticket-btn')
+                            for(let button of allButtons){
+                                button.disabled=true
+                            }
+                    }
             
        }) 
 
