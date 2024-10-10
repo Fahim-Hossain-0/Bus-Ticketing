@@ -14,6 +14,22 @@ function getElementById(elementId){
     return value
 }
 function setColor(elementId){
-    const element = document.getElementsByTagName(elementId)
-    element.tagName.add("color")
+    const element = document.getElementById(elementId)
+    element.classList.add('bg-red-500')
 }
+
+
+// function getTotalSeat() {
+
+//     const totalSeat =getTextElementValueById("total-seat");
+//     const updateSeat = totalSeat - 1 
+//     const lastSeat = setTextElementValue('total-seat', updateSeat)
+//     return lastSeat
+
+//     console.log(totalSeat);
+// }
+// getTotalSeat()
+
+// console.log('ok')
+
+
