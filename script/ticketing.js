@@ -102,7 +102,7 @@ applyButton.addEventListener('click', function() {
         const discountedTotal = setTotalPrice - discount;
         grandTotal.innerText = discountedTotal;
     }
-
+    
     // Disable the Apply button and coupon field after applying the discount
     applyButton.setAttribute('disabled', 'true');
     couponField.setAttribute('disabled', 'true');
